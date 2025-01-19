@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://bcwewmmbqi73d"]
+
+[ext_resource type="PackedScene" uid="uid://bb6c1xheshgkj" path="res://assets/mCherry%20Fluorescent%20Protein-ribbon-bychain-vis_NIH3D.glb" id="1_3g5n7"]
+[ext_resource type="PackedScene" uid="uid://b2q21h6ucvdjx" path="res://assets/mCherry%20Fluorescent%20Protein-ribbon-vis_NIH3D.glb" id="2_uxyn5"]
+
+[node name="SomeProtein" type="Node3D"]
+
+[node name="mCherry_20Fluorescent_20Protein-ribbon-bychain-vis_NIH3D" parent="." instance=ExtResource("1_3g5n7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -84.3665, 0, -1.74429)
+
+[node name="mCherry_20Fluorescent_20Protein-ribbon-vis_NIH3D" parent="." instance=ExtResource("2_uxyn5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 27.3939, 16.3355, 8.37811)
